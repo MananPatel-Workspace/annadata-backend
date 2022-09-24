@@ -14,7 +14,7 @@ const mail = (req, res) => {
   });
 
   const mailOptions = {
-    from: "nodemailerforappengine@gmail.com",
+    from: "process.env.USERNAME",
     to: req.body.sender,
     subject: "Invoice for Annadata Tiffin order",
     html: template,
