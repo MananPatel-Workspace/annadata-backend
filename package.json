@@ -1,0 +1,18 @@
+{
+  "name": "annadata_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Manan R Patel",
+  "license": "ISC",
+  "dependencies": {
+    "async-mutex": "^0.3.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.8"
+  }
+}
