@@ -23,7 +23,7 @@ const mail = (req, res) => {
   transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
       console.log(error);
-      res.send("I think server started");
+      res.send("I think server Not Started");
     } else {
       console.log("Email sent: " + info.response);
       res.send("I think server started");
